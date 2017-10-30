@@ -5,11 +5,6 @@
             <a class="navbar-item" href="#">
               <img src="https://s3-sa-east-1.amazonaws.com/protecciontotal/img/logo.png">
             </a>
-            <a class="navbar-item is-hidden-desktop" href="https://twitter.com/ProtecTotalSA" target="_blank">
-              <span class="icon" style="color: #55acee;">
-                <i class="fa fa-lg fa-twitter"></i>
-              </span>
-            </a>
 
             <div class="button is-light navbar-burger" @click="toogleNav" :class="{ 'is-active': showNav }">
               <span></span>
@@ -24,6 +19,10 @@
               </div>
             </div>
             <div class="navbar-end">
+              <div class="navbar-item">
+                <a href="https://www.facebook.com/protecciontotalsa/" target="_blank"><span style="color:#3b5998; font-size:1.8em; margin-right:15px;"><i class="fa fa-facebook"></i></span></a>
+                <a href="https://twitter.com/ProtecTotalSA" target="_blank"><span style="color: #55acee; font-size:1.8em;"><i class="fa fa-twitter"></i></span></a>
+              </div>
               <div class="navbar-item" @click="toogleNav">
                 <i class="fa fa-home" aria-hidden="true"></i><router-link to="/#init"><a href="#init" v-smooth-scroll>&nbsp;Inicio</a></router-link>
               </div>
@@ -73,9 +72,6 @@ export default {
     left: 0!important;
     right: 0!important;
     margin: 0!important;
-}
-.navbar-end{
-  margin-right: 40px;
 }
 .navbar-item{
   font-family: 'Montserrat', sans-serif;

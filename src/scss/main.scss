@@ -406,6 +406,17 @@
     width: 250px !important;
   }
 }
+@media screen
+  and (min-device-width: 1601px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+  .form-contact{
+    top: 20vh;
+  }
+  .custom{
+    margin-top:200px;
+    width: 250px !important;
+  }
+}
 /* ----------- Retina Screens ----------- */
 @media screen
   and (min-device-width: 1200px)

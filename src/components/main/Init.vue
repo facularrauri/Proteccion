@@ -82,6 +82,14 @@ export default {
     height: 100vh !important;
   }
 }
+@media screen
+  and (min-device-width: 1601px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) {
+    .swiper-container {
+    height: 100vh !important;
+  }
+}
 /* ----------- Retina Screens ----------- */
 @media screen
   and (min-device-width: 1200px)
