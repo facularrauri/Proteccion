@@ -24,16 +24,16 @@
                 <a href="https://twitter.com/ProtecTotalSA" target="_blank"><span style="color: #55acee; font-size:1.8em;"><i class="fa fa-twitter"></i></span></a>
               </div>
               <div class="navbar-item" @click="toogleNav">
-                <i class="fa fa-home" aria-hidden="true"></i><router-link to="/#init"><a href="#init" v-smoothscroll>&nbsp;Inicio</a></router-link>
+                <i class="fa fa-home" aria-hidden="true"></i><router-link to="/#init"><a href="#init" v-smoothscroll="{duration:500}">&nbsp;Inicio</a></router-link>
               </div>
               <div class="navbar-item" @click="toogleNav">
-                <i class="fa fa-users" aria-hidden="true"></i><router-link to="/#About"><a href="#About" v-smoothscroll>&nbsp;Nosotros</a></router-link>
+                <i class="fa fa-users" aria-hidden="true"></i><router-link to="/#About"><a href="#About" v-smoothscroll="{duration:500}">&nbsp;Nosotros</a></router-link>
               </div>
               <div class="navbar-item" @click="toogleNav">
-                <i class="fa fa-folder-open" aria-hidden="true"></i><router-link to="/#Services"><a href="#Services" v-smoothscroll>&nbsp;Servicios</a></router-link>
+                <i class="fa fa-folder-open" aria-hidden="true"></i><router-link to="/#Services"><a href="#Services" v-smoothscroll="{duration:500}">&nbsp;Servicios</a></router-link>
               </div>
               <div class="navbar-item" @click="toogleNav">
-                <i class="fa fa-phone" aria-hidden="true"></i><router-link to="/#Contact"><a href="#Contact" v-smoothscroll>&nbsp;Contacto</a></router-link>
+                <i class="fa fa-phone" aria-hidden="true"></i><router-link to="/#Contact"><a href="#Contact" v-smoothscroll="{duration:500}">&nbsp;Contacto</a></router-link>
               </div>
             </div>
           </div>

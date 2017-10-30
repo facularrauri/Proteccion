@@ -6,7 +6,7 @@ function Setinserted (el, binding) {
 }
 
 VueSmoothScroll.install = function (Vue) {
-  Vue.directive('smoothscrooll', {
+  Vue.directive('smoothscroll', {
     inserted (el, binding) {
       Setinserted(el, binding)
     }
