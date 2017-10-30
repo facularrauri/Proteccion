@@ -5,10 +5,10 @@ import routes from '@/router'
 import carousel from 'vue-carousel-3d'
 import * as VueGoogleMaps from 'vue2-google-maps'
 import VueScrollReveal from '@/directives/scrollreveal'
-import vueSmoothScroll from 'vue-smooth-scroll'
+import VueSmoothScroll from '@/directives/smoothscroll'
 
-Vue.use(vueSmoothScroll)
 Vue.use(VueScrollReveal)
+Vue.use(VueSmoothScroll)
 Vue.use(VueGoogleMaps, {
   load: {
     key: 'AIzaSyDOglsHj2FA3olk8qK0P5LqD4gWp6IZGoM',

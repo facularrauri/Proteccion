@@ -15,7 +15,7 @@
               </div>
           </swiper-slide>
           <div class="img-overlay">
-            <a href="#About" class="btn" v-smooth-scroll><i class="fa fa-angle-down animated1 bounce" aria-hidden="true"></i></a>
+            <a href="#About" class="btn" v-smoothscroll><i class="fa fa-angle-down animated1 bounce" aria-hidden="true"></i></a>
           </div>
           </swiper>
       </div>
