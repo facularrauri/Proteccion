@@ -9,7 +9,7 @@
             </div>
           </swiperSlide>
           <swiper-slide>
-            <img class="custom2" src="https://s3-sa-east-1.amazonaws.com/protecciontotal/img/backgrounds/bg-landing-2.jpg">
+            <img class="custom2" src="https://protecciontotal.s3-sa-east-1.amazonaws.com/img/backgrounds/bg-landing-2.png">
               <div class="form-contact">
                 <PtTopContent></PtTopContent>
               </div>

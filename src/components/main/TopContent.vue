@@ -5,7 +5,6 @@
         <div class="column is-4 is-offset-7">
           <div class="topForm">
             <h3>FINANCIA TU ALARMA</h3>
-            <p>En 12 cuotas sin interes</p>
           </div>
               <div class="bottomForm">
               <strong><p v-show="val" class="error has-text-centered">{{ validation }}</p></strong>
