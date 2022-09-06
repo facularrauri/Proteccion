@@ -9,7 +9,7 @@
       <div class="column is-12">
         <swiper :options="swiperOption">
           <swiper-slide v-for="img in images" :key="img.key">
-              <img :src="img.image">
+            <img style="max-height: 100px" :src="img.image">
           </swiper-slide>
         </swiper>
         <div class="columns">
@@ -17,9 +17,7 @@
             <div class="swiper-pagination" slot="pagination"></div>
           </div>
         </div>
-
       </div>
-
     </div>
 </div>
 </template>
@@ -42,32 +40,35 @@ export default {
         autoplayDisableOnInteraction: false
       },
       images: [
-        { image: 'https://s3-sa-east-1.amazonaws.com/protecciontotal/img/clientes/unqui.png' },
+        { image: 'https://protecciontotal.s3.sa-east-1.amazonaws.com/img/clientes/coca.png' },
+        { image: 'https://protecciontotal.s3.sa-east-1.amazonaws.com/img/clientes/jumbo.png' },
+        { image: 'https://protecciontotal.s3.sa-east-1.amazonaws.com/img/clientes/cencosud.png' },
+        { image: 'https://protecciontotal.s3.sa-east-1.amazonaws.com/img/clientes/easy.jpg' },
+        { image: 'https://protecciontotal.s3.sa-east-1.amazonaws.com/img/clientes/showcase.png' },
+        { image: 'https://protecciontotal.s3.sa-east-1.amazonaws.com/img/clientes/CLUB+ALEMAN.jpg' },
+        { image: 'https://protecciontotal.s3.sa-east-1.amazonaws.com/img/clientes/FERRUM.png' },
+        { image: 'https://protecciontotal.s3.sa-east-1.amazonaws.com/img/clientes/portal+lomas.png' },
+        { image: 'https://protecciontotal.s3.sa-east-1.amazonaws.com/img/clientes/pitq.jpg' },
+        { image: 'https://protecciontotal.s3.sa-east-1.amazonaws.com/img/clientes/prestigio.jpg' },
+        { image: 'https://protecciontotal.s3.sa-east-1.amazonaws.com/img/clientes/siemens.png' },
+        { image: 'https://protecciontotal.s3.sa-east-1.amazonaws.com/img/clientes/greenville.png' },
+        { image: 'https://protecciontotal.s3.sa-east-1.amazonaws.com/img/clientes/ombues.png' },
+        { image: 'https://protecciontotal.s3.sa-east-1.amazonaws.com/img/clientes/acasias.png' },
         { image: 'https://s3-sa-east-1.amazonaws.com/protecciontotal/img/clientes/altos1.png' },
+        { image: 'https://protecciontotal.s3.sa-east-1.amazonaws.com/img/clientes/adroge+chico.png' },
+        { image: 'https://protecciontotal.s3.sa-east-1.amazonaws.com/img/clientes/albens.png' },
+        { image: 'https://protecciontotal.s3.sa-east-1.amazonaws.com/img/clientes/altos+2.jpg' },
         { image: 'https://s3-sa-east-1.amazonaws.com/protecciontotal/img/clientes/alumax.png' },
-        { image: 'https://s3-sa-east-1.amazonaws.com/protecciontotal/img/clientes/antina.png' },
-        { image: 'https://s3-sa-east-1.amazonaws.com/protecciontotal/img/clientes/autotag.png' },
-        { image: 'https://s3-sa-east-1.amazonaws.com/protecciontotal/img/clientes/blaa.png' },
         { image: 'https://s3-sa-east-1.amazonaws.com/protecciontotal/img/clientes/cattorini.png' },
         { image: 'https://s3-sa-east-1.amazonaws.com/protecciontotal/img/clientes/champion.png' },
-        { image: 'https://s3-sa-east-1.amazonaws.com/protecciontotal/img/clientes/elsol.png' },
-        { image: 'https://s3-sa-east-1.amazonaws.com/protecciontotal/img/clientes/extragas.png' },
         { image: 'https://s3-sa-east-1.amazonaws.com/protecciontotal/img/clientes/fanelli.png' },
-        { image: 'https://s3-sa-east-1.amazonaws.com/protecciontotal/img/clientes/fate.png' },
-        { image: 'https://s3-sa-east-1.amazonaws.com/protecciontotal/img/clientes/gategourmet.png' },
-        { image: 'https://s3-sa-east-1.amazonaws.com/protecciontotal/img/clientes/grandbell.png' },
         { image: 'https://s3-sa-east-1.amazonaws.com/protecciontotal/img/clientes/jardin.png' },
         { image: 'https://s3-sa-east-1.amazonaws.com/protecciontotal/img/clientes/kalop.png' },
         { image: 'https://s3-sa-east-1.amazonaws.com/protecciontotal/img/clientes/kartonsec.png' },
-        { image: 'https://s3-sa-east-1.amazonaws.com/protecciontotal/img/clientes/mcdonalds.png' },
         { image: 'https://s3-sa-east-1.amazonaws.com/protecciontotal/img/clientes/nine.png' },
         { image: 'https://s3-sa-east-1.amazonaws.com/protecciontotal/img/clientes/persano.png' },
         { image: 'https://s3-sa-east-1.amazonaws.com/protecciontotal/img/clientes/plascar.png' },
-        { image: 'https://s3-sa-east-1.amazonaws.com/protecciontotal/img/clientes/remis.png' },
-        { image: 'https://s3-sa-east-1.amazonaws.com/protecciontotal/img/clientes/royalcanin.png' },
-        { image: 'https://s3-sa-east-1.amazonaws.com/protecciontotal/img/clientes/saintgobain.png' },
-        { image: 'https://s3-sa-east-1.amazonaws.com/protecciontotal/img/clientes/sanjuan.png' },
-        { image: 'https://s3-sa-east-1.amazonaws.com/protecciontotal/img/clientes/tarjetashopping.png' }
+        { image: 'https://s3-sa-east-1.amazonaws.com/protecciontotal/img/clientes/sanjuan.png' }
       ]
     }
   }

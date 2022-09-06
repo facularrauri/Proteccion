@@ -21,7 +21,8 @@
             <div class="navbar-end">
               <div class="navbar-item">
                 <a href="https://www.facebook.com/protecciontotalsa/" target="_blank"><span style="color:#3b5998; font-size:1.8em; margin-right:15px;"><i class="fa fa-facebook"></i></span></a>
-                <a href="https://twitter.com/ProtecTotalSA" target="_blank"><span style="color: #55acee; font-size:1.8em;"><i class="fa fa-twitter"></i></span></a>
+                <!-- <a href="https://twitter.com/ProtecTotalSA" target="_blank"><span style="color: #55acee; font-size:1.8em; margin-right:15px;"><i class="fa fa-twitter"></i></span></a> -->
+                <a href="https://www.instagram.com/protecciontotal/" target="_blank"><span class="instagram"><i class="fa fa-instagram"></i></span></a>
               </div>
               <div class="navbar-item" @click="toogleNav">
                 <i class="fa fa-home" aria-hidden="true"></i><router-link to="/#init"><a href="#init" v-smooth-scroll>&nbsp;Inicio</a></router-link>
@@ -76,5 +77,13 @@ export default {
 }
 .navbar-item{
   font-family: 'Montserrat', sans-serif;
+}
+
+.instagram {
+  color: white;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  font-size: 1.5em;
+  padding: 0px 3px;
+  border-radius: 5px;
 }
 </style>

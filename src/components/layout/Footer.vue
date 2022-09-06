@@ -17,7 +17,8 @@
           <p>Respondemos tus consultas en las redes sociales, Sumate a la conversación:</p>
           <p>
             <a href="https://www.facebook.com/protecciontotalsa/" target="_blank"><i class="fa fa-facebook"></i>&nbsp;</a>
-            <a href="https://twitter.com/ProtecTotalSA" target="_blank"><i class="fa fa-twitter"></i></a>
+            <!-- <a href="https://twitter.com/ProtecTotalSA" target="_blank"><i class="fa fa-twitter"></i></a> -->
+            <a href="https://www.instagram.com/protecciontotal/" target="_blank"><i class="fa fa-instagram"></i></span></a>
           </p>
 
         </div>
